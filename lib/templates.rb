@@ -21,10 +21,10 @@ $rss_templates = { "rss2.0" => '
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="1.0">
     <head>
-        <title>Red Rover Members Feeds</title>
+        <title>#item-title</title>
     </head>
     <body>
-        <outline title="Red Rover Feeds" text="Red Rover Feeds">
+        <outline title="#item-title" text="#item-title">
 #items-start
           <outline text="#item-title" title="#item-title" type="rss" xmlUrl="#item-link" htmlUrl="#item-desc"/>
 #items-end
